@@ -1,9 +1,23 @@
 # HamButton
-
-![Ham Button](Ham.gif "Ham Button"=250x100)
+<img src="Ham.gif" width="300">
 
 Gradle
 implementation 'com.nightonke:boommenu:1.0.9'
+
+XML Code
+
+     <com.nightonke.boommenu.BoomMenuButton
+        android:id="@+id/boom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:checkableBehavior="single"
+        app:boom_button_color="@color/colorPrimary"
+        app:boom_button_pressed_color="@color/colorPrimary"
+        app:boom_inActionBar="false" />
 
 Main Activity
 
@@ -66,4 +80,4 @@ Main Activity
                   })
                   .init(boomMenuButton);
       }
-    }
+    } 
