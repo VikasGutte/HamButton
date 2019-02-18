@@ -1,6 +1,6 @@
 # HamButton
 
-![](Ham.gif)
+![Ham Button](Ham.gif "Ham Button"=250x100)
 
 Gradle
 implementation 'com.nightonke:boommenu:1.0.9'
